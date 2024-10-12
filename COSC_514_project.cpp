@@ -39,7 +39,7 @@ void parseAndCalculate(const string& input) {
                 int num1_int = (int)num1; // cast num1 & num2 to int; modulus works not in double
                 int num2_int = (int)num2;
                 result = num1_int % num2_int;
-                // If result is negative, adjust by adding num2
+                // negative result is adjusted by adding num2
                 if (result < 0) {
                     result += num2_int;
                 }
