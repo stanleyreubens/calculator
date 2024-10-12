@@ -67,7 +67,7 @@ int main() {
 
     cout << "This is a Simple Calculator on FreeBSD." << endl;
     cout << "Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(%), and Exponential(^) can be done." << endl;
-    cout << "Note: Use 'Exit' or 'Quit to close the Calculator." << endl;
+    cout << "Note: Use 'Exit' or 'Quit' to close the Calculator." << endl;
     cout << "\n";
     cout << "Enter calculation (e.g., '5 + 3', '8.5 * 2.1', or '3 ^ 5', ...):" << endl;
 
